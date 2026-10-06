@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "armor-durability",
+  "version": "${version}",
+  "name": "armor-durability",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/armor-durability/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "armor-durability.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}"
+  }
+}
